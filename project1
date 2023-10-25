@@ -1,1 +1,5 @@
-print('new')
+from dataclasses import dataclass
+@dataclass
+class Machine:
+  characteristic: str
+person = Machine('power')
