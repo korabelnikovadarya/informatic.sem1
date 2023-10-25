@@ -1,1 +1,9 @@
-print('new')
+from dataclasses import dataclass
+@dataclass
+class First:
+  name: str
+  year: int
+  color: str
+p = First('Ivan', 20, 'green')
+print(p)
+
